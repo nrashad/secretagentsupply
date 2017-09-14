@@ -1,0 +1,163 @@
+body{
+  font-size: 18px;
+  margin: 0;
+  font-family: Helvetica;
+  color: white;
+  padding: 0;
+}
+main{
+  width: 100%;
+  height: auto;
+}
+.full{
+  width: 100%;
+  height: auto;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    background-color: black;
+    font-size: 1rem;
+  }
+  header nav{
+    width: 960px;
+  }
+
+.content{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+nav img{
+  margin-left: 0.5rem;
+  margin-right: 1rem;
+  height: 1.5rem;
+}
+#logo{
+    margin-top: 0.66rem;
+    margin-bottom: 0.66rem;
+    font-size: 1rem;
+}
+.logo {
+    display: flex;
+    align-items: center;
+  }
+.moto{
+  display: flex;
+  justify-content: center;
+  background-image: url("../images/moto.jpeg");
+  background-size: cover;
+  width: 100%;
+  height: 25rem;
+}
+.center{
+  width: 960px;
+  display: flex;
+  justify-content: flex-start;
+}
+.bikes{
+  background-color: black;
+  display: block;
+  margin-top: 9rem;
+  width:25rem ;
+  height: 10rem;
+  }
+.bikes h4{
+  font-size: 1rem;
+  font-weight: bold;
+  margin-top: 2rem;
+  margin-bottom: 0.25rem;
+  padding-left: 3rem;
+}
+.bikes h2{
+  font-size: 2rem;
+  font-weight: bold;
+  margin-left: 3rem;
+  margin-bottom: 2rem;
+}
+#prod{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: firebrick;
+}
+.products{
+
+  display: flex;
+  justify-content: space-between;
+  width: 960px;
+}
+.products span{
+  margin: 0.75rem 1px;
+}
+
+.items{
+  display: flex;
+  justify-content: space-between;
+  width: 960px;
+  }
+.item{
+    width: 30%;
+    margin-top: 3rem;
+    border: 4px solid black;
+    display: block;
+    align-items: center;
+  }
+  .item img{
+    height: 9rem;
+    margin: 2rem auto;
+    display: flex;
+    align-items:  center;
+
+  }
+  .item p{
+    background-color: black;
+    display: flex;;
+    justify-content: center;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+  .loc-hours{
+    display: flex;
+    width: 960px;
+    justify-content: space-between;
+    margin-top: 3rem;
+  }
+  .loc{
+    width: 35%;
+    margin-bottom: 4rem;
+  }
+  .loc h3{
+    background-color: black;
+    padding-left: 2rem;
+    padding-top:  1rem;
+    padding-bottom: 1rem;
+  }
+  .loc p{
+    color: black;
+  }
+  #footer{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  footer{
+    margin: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width:960px;
+    height: 5rem;
+    background-color: black;
+  }
