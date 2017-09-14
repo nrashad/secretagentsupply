@@ -53,10 +53,12 @@ nav img{
     align-items: center;
   }
 .moto{
+  margin-top:  2.32rem;
   display: flex;
   justify-content: center;
   background-image: url("../images/moto.jpeg");
   background-size: cover;
+  background-position: center;
   width: 100%;
   height: 25rem;
 }
@@ -117,7 +119,8 @@ nav img{
     height: 9rem;
     margin: 2rem auto;
     display: flex;
-    align-items:  center;
+    align-items: center;
+    max-width: 9em;
 
   }
   .item p{
