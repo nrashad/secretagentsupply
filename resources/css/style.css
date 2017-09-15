@@ -93,6 +93,9 @@ nav img{
   width: 100%;
   background-color: firebrick;
 }
+#prod h2{
+  display: none;
+}
 .products{
 
   display: flex;
@@ -164,3 +167,116 @@ nav img{
     height: 5rem;
     background-color: black;
   }
+  @media only screen and (min-width:470px) and (max-width:1024px) {
+    .items{
+      display: flex;
+      width: auto;
+      flex-flow: row wrap;
+      overflow: hidden;;
+    }
+    .item{
+        width: 47%;
+        margin-top: 3rem;
+        border: 4px solid black;
+        display: block;
+        align-items: center;
+        overflow: hidden;
+      }
+      .products{
+        display: none;
+        justify-content: center;
+        width: 100%;
+        background-color: firebrick;
+      }
+      #prod h2{
+        display: flex;
+        justify-content: center;
+        margin: 0.75rem 1px;
+      }
+      #glasses{
+        display: none;
+      }
+    }
+    @media only screen and (max-width: 470px){
+      .moto{
+        margin-top:  2.32rem;
+        display: flex;
+        justify-content: center;
+        background-image: url("../images/moto.jpeg");
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 15rem;
+      }
+      .products{
+        display: none;
+        justify-content: center;
+        width: 100%;
+        background-color: firebrick;
+        margin-top: 15rem;
+      }
+      #prod h2{
+        display: flex;
+        justify-content: center;
+        margin: 0.75rem 1px;
+      }
+      .bikes{
+        background-color: black;
+        display: block;
+        margin-top: 9rem;
+        width:25rem ;
+        height: auto;
+        margin-bottom: 1rem;
+        }
+      .bikes h4{
+        font-size: 0.77rem;
+        font-weight: bold;
+        margin-top: 1rem;
+        margin-bottom: 0.25rem;
+        padding-left: 2rem;
+      }
+      .bikes h2{
+        font-size: 1rem;
+        font-weight: bold;
+        margin-left: 2rem;
+        margin-bottom: 2rem;
+      }
+      .items{
+        display: flex;
+        width: auto;
+        flex-flow: column;
+
+      }
+      .item{
+          width: 90%;
+          margin-top: 3rem;
+          border: 4px solid black;
+          display: block;
+          align-items: center;
+          overflow: hidden;
+        }
+        .loc-hours{
+          display: flex;
+          justify-content: center;
+          flex-flow: column nowrap;
+          width: auto;
+          margin-bottom: 4rem;
+        }
+        .loc h3{
+          display: block;
+          width: 200%;
+          background-color: black;
+          padding-left: 2rem;
+          padding-top:  1rem;
+          padding-bottom: 0.5rem;
+        }
+        footer{
+          margin: auto;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width:auto;
+          height: 5rem;
+          background-color: black;
+        }
+    }
